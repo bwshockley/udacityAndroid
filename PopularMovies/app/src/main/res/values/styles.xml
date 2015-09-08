@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="trailerHeader" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="reviewAuthor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+</resources>
