@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary theme color of the app (sets the background color of app bar -->
+        <item name="android:colorPrimary">#FF9800</item>
+        <!-- Background color of buttons in the app -->
+        <item name="android:colorButtonNormal">#FF9800</item>
+    </style>
+
+    <style name="DefaultButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/default_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:background">@android:color/holo_orange_dark</item>
+        <item name="android:padding">@dimen/default_button_padding</item>
+        <item name="android:textSize">@dimen/default_button_text</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:onClick">launchApp</item>
+    </style>
+
+</resources>

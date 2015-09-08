@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_horizontal"
+        android:text="My Nanodegree Apps!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/movies"
+        style="@style/DefaultButton"
+        android:text="Popular Movies" />
+
+    <Button
+        android:id="@+id/scores"
+        style="@style/DefaultButton"
+        android:text="Scores App" />
+
+    <Button
+        android:id="@+id/library"
+        style="@style/DefaultButton"
+        android:text="Library App" />
+
+    <Button
+        android:id="@+id/bigger"
+        style="@style/DefaultButton"
+        android:text="Build it Bigger" />
+
+    <Button
+        android:id="@+id/material"
+        style="@style/DefaultButton"
+        android:text="Make Your App Material" />
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/DefaultButton"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/capstoneApp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
